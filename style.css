@@ -16,7 +16,28 @@ body {
 }
 
 
-/* //........top text ........// */
+/* //........search bar ........// */
+
+.search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  #search-input {
+    padding:5px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    flex-grow: 1;
+  }
+  
+  #search-button {
+    padding: 5px 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
 
 :root {
     /* //....... Color ........// */
@@ -1230,4 +1251,5 @@ iframe {
         height: 90vmax;
     }
 
+   
 
